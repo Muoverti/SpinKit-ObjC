@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
   s.name         = 'SpinKit'
-  s.version      = '1.2.0'
+  s.version      = '1.2.1'
   s.authors      = {'Ramon Torres' => 'raymondjavaxx@gmail.com'}
   s.homepage     = 'https://github.com/raymondjavaxx/SpinKit-ObjC'
   s.summary      = 'UIActivityIndicatorView replacement with multiple styles and animations.'
   s.source       = {:git => 'https://github.com/raymondjavaxx/SpinKit-ObjC.git', :tag => '1.2.0'}
   s.license      = {:type => 'MIT', :file => 'LICENSE'}
-  s.platform     = :ios, '6.0'
+  s.platform     = :ios, '8.0'
   s.tvos.deployment_target = "9.0"
   s.public_header_files = 'SpinKit/RTSpinKitView.h', 'SpinKit/RTSpinKitAnimating.h'
   s.source_files = 'SpinKit/**/*.{m,h}'
